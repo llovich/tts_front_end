@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #444444;
+  background: url("berries.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Impact, Charcoal, sans-serif;
+  color: #3389B2;
+}
+
+p#about {
+  font-weight: 700;
+  line-height:150%;
+  text-align: center;
+}
+
+#title {
+  font-size: 3em;
+  text-align: center;
+  color: red;
+}
+
+#faves {
+
+}
+
+.restaurant-box {
+  background-color: pink;
+  padding-left: 10px;
+  padding-bottom:10px;
+  margin-bottom:20px;
+  border: 1px solid red;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.restaurant-box a {
+  text-decoration: none;
+}
+
+.restaurant-box a h2{
+  color: #ffffff;
+}
+
+.restaurant-box a:hover h2 {
+  color: orange;
+}
+
+.play {
+  height: 50px;
+  width: 100px;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: inline-block; /* display inline */
+  /*display: none;  display none */
+}
+
+#one {
+  background-color: red;
+}
+
+#two {
+  background-color: blue;
+}
+
+#three {
+  background-color: purple;
+}
+
+#four {
+    background-color:green;
+}
+
