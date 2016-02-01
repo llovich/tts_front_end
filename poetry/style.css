@@ -1,0 +1,70 @@
+body {
+  font-family: times, georgia, serif;
+  color: #444444;
+  background: url("pears.jpg") no-repeat center center fixed;
+  background-size: cover;
+  font-size:15px;
+}
+
+
+a:link {
+    color: purple;
+    text-decoration:none;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: purple;
+}
+
+a:active {
+    color: purple;
+}
+
+
+#main-box {
+  background-color: rgba(188,187,169, 0.9);
+  margin:150px 200px 150px 200px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+#main-box header {
+  padding-left: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+#main-box header h1 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight:100;
+  font-size:3em;
+  letter-spacing: 2px;
+  margin-bottom:20px;
+}
+
+#main-box header h2 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size:1.5em;
+  font-weight:100;
+}
+
+#main-box article {
+  padding-left:230px;
+  line-height: 1.6em;
+
+}
+
+#main-box footer {
+  padding-top:40px;
+  padding-left:20px;
+  padding-bottom:10px;
+  padding-right:10px;
+  text-align:right;
+}
+
+
+
